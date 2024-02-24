@@ -1040,7 +1040,7 @@
                                                 to put smiles on the faces of our clients.
                                                 We have investors from all over the world, who have been with us for over
                                                 seven years now and counting.</p>
-                                            <a href="https://trustbunds.com/login"><i class="fas fa-arrow-right" style="color: steelblue;"></i><span>Read More</span></a>
+                                            <a href="#"><i class="fas fa-arrow-right" style="color: steelblue;"></i><span>Read More</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1059,6 +1059,172 @@
             </div>
         </div>
     </section>
+<section class="about-style-two p-t-10">
+        <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div>
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="col-lg-7 col-md-12 col-sm-12 content-column">
+                    <div id="content_block_three">
+                        <div class="content-box">
+                            <div class="sec-title style-two">
+                                <h5></h5>
+                                <h2>How you can join us</h2>
+                            </div>
+                            <div class="text">
+                                <p>Here are few easy steps on how you can create an account with us and start investing
+                                    right away!</p>
+                            </div>
+                            <div class="inner-box">
+                                <div class="row clearfix">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                                        <div class="single-item">
+                                            <div class="icon-box"><i class="fas fa-user-plus" style="color: steelblue;"></i></div>
+                                            <h5><a href="#">CREATE AN ACCOUNT</a></h5>
+                                            <p>Hit the 'OPEN ACCOUNT' button at the top of the page, fill in your details on
+                                                the page that follows</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                                        <div class="single-item">
+                                            <div class="icon-box"><i class="fas fa-database" style="color: steelblue;"></i></div>
+                                            <h5><a href="index-3.html">SELECT A PLAN</a></h5>
+                                            <p>From your Dashboard, select the Deposit button to choose an investment plan
+                                                that suits your financial goal</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                                        <div class="single-item">
+                                            <div class="icon-box"><i class="fab fa-bitcoin" style="color: steelblue;"></i></div>
+                                            <h5><a href="index-3.html">FUND YOUR ACCOUNT</a></h5>
+                                            <p>Fund your investment account quickly and easily, using our Bitcoin payment
+                                                system directly from your wallet</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                                        <div class="single-item">
+                                            <div class="icon-box"><i class="fas fa-share-alt" style="color: steelblue;"></i></div>
+                                            <h5><a href="index-3.html">INVITE OTHERS</a></h5>
+                                            <p>While experiencing the amazing benefits of investing with us, you can also
+                                                earn bonuses when you refer us to others</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12 image-column">
+                    <div id="image_block_two">
+                        <div class="image-box">
+                            <figure class="image"><img src="https://trustbunds.com/assets/images/resource/state-1.jpg" alt=""></figure>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="features18 cid-st9YtuRONt" id="features19-1i">
+
+
+
+
+       <div class="container">
+              <div class="row justify-content-center">
+                     <div class="card col-12 col-lg">
+                            <div class="card-wrapper">
+                                   <h6 class="card-title mbr-fonts-style mb-4 display-2">
+                                          <strong>Who We Are</strong>
+                                   </h6>
+                                   <p class="mbr-text mbr-fonts-style display-7">
+                                          Our mission is to generate world-class investment returns over the long term. We aspire to
+                                          do so in a way that makes our partners and portfolio companies proud, as we build a unique,
+                                          global investment company.</p>
+                                   <div class="mbr-section-btn">
+                                          <a class="btn btn-primary display-4" href="{{route('register')}}">Start now</a>
+                                   </div>
+                            </div>
+                     </div>
+                     <div class="col-12 col-lg-6">
+                            <div class="image-wrapper">
+                                   <img src="bingx/assets/images/purpose.jpg" alt="Mobirise">
+                            </div>
+                     </div>
+              </div>
+       </div>
+</section>
+
+<section class="features4 cid-stkybZ2FSw" id="features4-1l">
+
+
+       <div class="container">
+              <div class="mbr-section-head">
+                     <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                            <strong>Invest Today!</strong>
+                     </h4><br><br>
+
+              </div>
+              <div class="row mt-4">
+                     <div class="item features-image сol-12 col-md-6 col-lg-4">
+                            <div class="item-wrapper">
+                                   <div class="item-img">
+                                          <img src="bingx/assets/images/invest.jpg" alt="" title="">
+                                   </div>
+                                   <div class="item-content">
+                                          <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">WEALTH PLANNING </h6>
+                                          <h5 class="item-title mbr-fonts-style display-5"><strong>Put the future in focus.</strong>
+                                          </h5>
+
+                                          <p class="mbr-text mbr-fonts-style mt-3 display-7">No matter what the future brings, we can
+                                                 offer you foresight in a world in flux. We’ll work with you to keep your financial goals
+                                                 on track, and your future within sight.</p>
+                                   </div>
+                                   <div class="mbr-section-btn item-footer mt-2"><a href="{{route('register')}}" class="btn item-btn btn-black display-7" target="_blank">Get Started
+                                                 &gt;</a></div>
+                            </div>
+                     </div>
+                     <div class="item features-image сol-12 col-md-6 col-lg-4">
+                            <div class="item-wrapper">
+                                   <div class="item-img">
+                                          <img src="bingx/assets/images/goals.jpg" alt="" title="">
+                                   </div>
+                                   <div class="item-content">
+                                          <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">
+                                                 INVESTMENTS</h6>
+                                          <h5 class="item-title mbr-fonts-style display-5"><strong>Achieve your financial
+                                                        goals</strong></h5>
+
+                                          <p class="mbr-text mbr-fonts-style mt-3 display-7">We offer a diverse range of products,
+                                                 services and tailored solutions that suit your approach to investment and help you
+                                                 achieve your financial goals.</p>
+                                   </div>
+                                   <div class="mbr-section-btn item-footer mt-2"><a href="{{route('register')}}" class="btn item-btn btn-black display-7" target="_blank">Get Started
+                                                 &gt;</a></div>
+                            </div>
+                     </div>
+                     <div class="item features-image сol-12 col-md-6 col-lg-4">
+                            <div class="item-wrapper">
+                                   <div class="item-img">
+                                          <img src="bingx/assets/images/lend.jpg" alt="" title="">
+                                   </div>
+                                   <div class="item-content">
+                                          <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">BORROWING</h6>
+                                          <h5 class="item-title mbr-fonts-style display-5"><strong>Financing that fits your personal
+                                                        needs</strong></h5>
+
+                                          <p class="mbr-text mbr-fonts-style mt-3 display-7">Find the right lending solution for you –
+                                                 whether you need a straightforward loan facility or have more complex requirements, with
+                                                 help from your Lending Specialist.<br></p>
+                                   </div>
+                                   <div class="mbr-section-btn item-footer mt-2"><a href="{{route('register')}}" class="btn item-btn btn-black display-7" target="_blank">Get Started
+                                                 &gt;</a></div>
+                            </div>
+                     </div>
+
+              </div>
+       </div>
+</section>
+
 
 
 

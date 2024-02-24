@@ -39,7 +39,7 @@
                             <strong>Email</strong>
                         </h6>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            <a href="mailto:support@bingxfinance.com" class="text-primary">support@bingxfinance.com</a>
+                            <a href="mailto:support@baguettemax.com" class="text-primary">support@baguettemax.com</a>
                         </p>
                     </div>
                 </div>

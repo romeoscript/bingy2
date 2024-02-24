@@ -70,7 +70,16 @@
                         <li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('about')}}">
                                 Who we are</a></li>
                         <li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="{{route('services')}}" data-toggle="dropdown-submenu" aria-expanded="false">Sector</a>
-                            <div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="{{route('realestate')}}">Real Estate</a><a class="text-black dropdown-item display-4" href="{{route('financialservices')}}" aria-expanded="false">Financial Services</a><a class="text-black dropdown-item display-4" href="{{route('crypto')}}" aria-expanded="false">cryptocurrency</a><a class="text-black dropdown-item display-4" href="{{route('health')}}" aria-expanded="false">Health Care</a><a class="text-black dropdown-item display-4" href="{{route('ict')}}" aria-expanded="false">Infomation technology</a>
+                            <div class="dropdown-menu">
+                                <a class="text-black dropdown-item display-4" href="{{route('realestate')}}">Real Estate</a>
+                                <a class="text-black dropdown-item display-4" href="{{route('financialservices')}}" aria-expanded="false">Financial Services</a>
+                                <a class="text-black dropdown-item display-4" href="{{route('crypto')}}" aria-expanded="false">cryptocurrency</a>
+                                <a class="text-black dropdown-item display-4" href="{{route('health')}}" aria-expanded="false">Health Care</a>
+                                <a class="text-black dropdown-item display-4" href="{{route('ict')}}" aria-expanded="false">Infomation technology</a>
+                                <a class="text-black dropdown-item display-4" href="{{route('cannabis')}}" aria-expanded="false">cannabis</a>
+                                <a class="text-black dropdown-item display-4" href="{{route('oil')}}" aria-expanded="false">Oil and Gas</a>
+                                <a class="text-black dropdown-item display-4" href="{{route('retirement')}}" aria-expanded="false">retirement plan</a>
+                                <a class="text-black dropdown-item display-4" href="{{route('loan')}}" aria-expanded="false">loan</a>
                             </div>
                         </li>
                         <li class="nav-item"><a class="nav-link link text-black display-4" href="{{route('services')}}">
@@ -86,9 +95,9 @@
 
                     <div class="navbar-buttons mbr-section-btn">
                         <a class="btn btn-success display-4" href="{{route('login')}}">
-                            Access portal</a>
+                            Login</a>
                         <a class="btn btn-success display-4" href="{{route('register')}}">
-                            Smart investor</a>
+                            Register</a>
 
                     </div>
                 </div>
@@ -116,7 +125,7 @@
                     </h5>
                     <ul class="list mbr-fonts-style display-4">
                         <ul class="list mbr-fonts-style display-4">
-                            <li class="mbr-text item-wrap">support@bingxfinance.com</li>
+                            <li class="mbr-text item-wrap">support@baguettemax.com</li>
                             <li class="mbr-text item-wrap"> {{ $compd ? $compd->companyphone : 'company phone' }}</li>
                             <li class="mbr-text item-wrap">Meadowbrook Mall Rd Bridgeport, WV 26330, USA </li>
 
@@ -203,10 +212,10 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="https://monixlimited.biz/home/home/content/dist/jquery.fake-notification.min.js"></script>
 
-   
 
 
- <script src="//code.tidio.co/jmd3lwidxyivdfa3rkfvs6zcxqsj63eo.js" async></script>
+
+    <script src="//code.tidio.co/jmd3lwidxyivdfa3rkfvs6zcxqsj63eo.js" async></script>
 
 </body>
 

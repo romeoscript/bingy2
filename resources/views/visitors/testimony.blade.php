@@ -388,17 +388,17 @@ window.smartsupp||(function(d) {
 </p>
 <p>
           
-           Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@bingxfinance.com</a>
+           Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@baguettemax.com</a>
 </p>
 <p>
           
           
-            Address: <br/> support@bingxfinance.com
+            Address: <br/> support@baguettemax.com
           
           
         </p>
 <p>
-         Second Address: support@bingxfinance.com
+         Second Address: support@baguettemax.com
           
         </p>
 </div>

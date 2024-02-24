@@ -14,7 +14,7 @@ use App\Models\Feature;
 class VisitorController extends Controller
 {
 
-    public $owneremail = "support@bingxfinance.com";
+    public $owneremail = "support@baguettemax.com";
     //
 
 
@@ -128,6 +128,66 @@ class VisitorController extends Controller
         $data['faqs'] = $faqs;
         $data['title'] = "companyvideo";
         return view("visitors.ict", $data);
+    }
+    public function cannabis()
+    {
+        $inv_plans = Investmentplan::all();
+        $faqs = Faq::all();
+        $company_detail = Sitesetting::where('id', 1)->first();
+        $company_features = Feature::where('id', 1)->first();
+        $data = [];
+        $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
+        $data['compd'] = $company_detail;
+        $data['investmentplans'] = $inv_plans;
+        $data['faqs'] = $faqs;
+        $data['title'] = "companyvideo";
+        return view("visitors.cannabis", $data);
+    }
+    public function oil()
+    {
+        $inv_plans = Investmentplan::all();
+        $faqs = Faq::all();
+        $company_detail = Sitesetting::where('id', 1)->first();
+        $company_features = Feature::where('id', 1)->first();
+        $data = [];
+        $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
+        $data['compd'] = $company_detail;
+        $data['investmentplans'] = $inv_plans;
+        $data['faqs'] = $faqs;
+        $data['title'] = "companyvideo";
+        return view("visitors.oil", $data);
+    }
+    public function retirement()
+    {
+        $inv_plans = Investmentplan::all();
+        $faqs = Faq::all();
+        $company_detail = Sitesetting::where('id', 1)->first();
+        $company_features = Feature::where('id', 1)->first();
+        $data = [];
+        $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
+        $data['compd'] = $company_detail;
+        $data['investmentplans'] = $inv_plans;
+        $data['faqs'] = $faqs;
+        $data['title'] = "companyvideo";
+        return view("visitors.retirement", $data);
+    }
+    public function loan()
+    {
+        $inv_plans = Investmentplan::all();
+        $faqs = Faq::all();
+        $company_detail = Sitesetting::where('id', 1)->first();
+        $company_features = Feature::where('id', 1)->first();
+        $data = [];
+        $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
+        $data['compd'] = $company_detail;
+        $data['investmentplans'] = $inv_plans;
+        $data['faqs'] = $faqs;
+        $data['title'] = "companyvideo";
+        return view("visitors.loan", $data);
     }
 
 

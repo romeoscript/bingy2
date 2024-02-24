@@ -286,7 +286,7 @@ window.smartsupp||(function(d) {
          6. Closing an Account and Cancellation of this Agreement
          <br/>
          a) Either party may terminate this Agreement by giving 10 (Ten) business days written notice by email to
-                                support@bingxfinance.com, of termination to the other party. Either party may terminate this Agreement immediately
+                                support@baguettemax.com, of termination to the other party. Either party may terminate this Agreement immediately
                                 in any case of any breach of this Agreement or event of Default by the other Party. Upon terminating notice of
                                 this Agreement, the Client shall be under obligation to close all open positions, otherwise, the notice shall
                                 become void, or the Company shall have the right to close all open positions without assuming any responsibility.
@@ -473,17 +473,17 @@ window.smartsupp||(function(d) {
 </p>
 <p>
             
-             Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@bingxfinance.com</a>
+             Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@baguettemax.com</a>
 </p>
 <p>
             
             
-              Address: <br/> support@bingxfinance.com
+              Address: <br/> support@baguettemax.com
             
             
           </p>
 <p>
-           Second Address: support@bingxfinance.com
+           Second Address: support@baguettemax.com
             
           </p>
 </div>

@@ -519,6 +519,10 @@ Route::get('/about', [App\Http\Controllers\VisitorController::class, 'about'])->
 Route::get('/blog', [App\Http\Controllers\VisitorController::class, 'blog'])->name('blog');
 Route::get('/services', [App\Http\Controllers\VisitorController::class, 'service'])->name('services');
 Route::get('/health', [App\Http\Controllers\VisitorController::class, 'health'])->name('health');
+Route::get('/cannabis', [App\Http\Controllers\VisitorController::class, 'cannabis'])->name('cannabis');
+Route::get('/retirement', [App\Http\Controllers\VisitorController::class, 'retirement'])->name('retirement');
+Route::get('/oil', [App\Http\Controllers\VisitorController::class, 'oil'])->name('oil');
+Route::get('/loan', [App\Http\Controllers\VisitorController::class, 'loan'])->name('loan');
 Route::get('/contact', [App\Http\Controllers\VisitorController::class, 'contact'])->name('contact');
 Route::get('/faq', [App\Http\Controllers\VisitorController::class, 'faq'])->name('faq');
 Route::get('/index', [App\Http\Controllers\VisitorController::class, 'index'])->name('index');
