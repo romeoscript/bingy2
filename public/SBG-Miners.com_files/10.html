@@ -1,0 +1,148 @@
+
+<!-- saved from url=(0101)https://www.btcwidget.info/widget/liveTx/%23000000/%23000000/%23000000/%23e8f0bc/%23000000/600/300/10 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="./GRt0bX6pvUeRo13oAkWojNQQujI.js"></script><style type="text/css" rel="stylesheet">
+        body {
+            background-color: #e8f0bc;
+            margin: 0;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #000000;
+        }
+
+        .content {
+            width: 558px;
+            height: 258px;
+            border: 1px solid #000000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .address {
+            color: #000000;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btc {
+            text-align: right;
+            color: #000000;
+        }
+    </style>
+</head>
+<body style="">
+<div class="content">
+<a id="0-link" href="https://blockchain.info/tx/13a29209f3cb1731e0ab5408623f97eff19cd4ff7afff970ed51ec2270d28cd0" target="_blank"><div class="address" id="0-adr">13L2cJrREcqembwfmctrvgKEjxDQPtcx5V</div></a>
+<div class="btc"><span id="0-btc">0.00088916</span>BTC</div>
+<hr>
+<a id="1-link" href="https://blockchain.info/tx/3d7f92bb98e9e9cace47608ea950cd8b4337af686aa08993ff0d499d535cde1f" target="_blank"><div class="address" id="1-adr">1EGquvZs7PLXkR3SvDv8mz3imr2Hv3Rq2L</div></a>
+<div class="btc"><span id="1-btc">0.02412536</span>BTC</div>
+<hr>
+<a id="2-link" href="https://blockchain.info/tx/3d7f92bb98e9e9cace47608ea950cd8b4337af686aa08993ff0d499d535cde1f" target="_blank"><div class="address" id="2-adr">1EGquvZs7PLXkR3SvDv8mz3imr2Hv3Rq2L</div></a>
+<div class="btc"><span id="2-btc">0.02412536</span>BTC</div>
+<hr>
+<a id="3-link" href="https://blockchain.info/tx/3d7f92bb98e9e9cace47608ea950cd8b4337af686aa08993ff0d499d535cde1f" target="_blank"><div class="address" id="3-adr">1EGquvZs7PLXkR3SvDv8mz3imr2Hv3Rq2L</div></a>
+<div class="btc"><span id="3-btc">0.02412536</span>BTC</div>
+<hr>
+<a id="4-link" href="https://blockchain.info/tx/3d7f92bb98e9e9cace47608ea950cd8b4337af686aa08993ff0d499d535cde1f" target="_blank"><div class="address" id="4-adr">1EGquvZs7PLXkR3SvDv8mz3imr2Hv3Rq2L</div></a>
+<div class="btc"><span id="4-btc">0.02412536</span>BTC</div>
+<hr>
+<a id="5-link" href="https://blockchain.info/tx/a4638a437cfec9d64535325ba57c89b47009e0b40f300727db36b2ef35141bc3" target="_blank"><div class="address" id="5-adr">38a92cWWr8JFGEvGSHw4s31rDHhkG9BBip</div></a>
+<div class="btc"><span id="5-btc">29.83992001</span>BTC</div>
+<hr>
+<a id="6-link" href="https://blockchain.info/tx/a4638a437cfec9d64535325ba57c89b47009e0b40f300727db36b2ef35141bc3" target="_blank"><div class="address" id="6-adr">38a92cWWr8JFGEvGSHw4s31rDHhkG9BBip</div></a>
+<div class="btc"><span id="6-btc">29.83992001</span>BTC</div>
+<hr>
+<a id="7-link" href="https://blockchain.info/tx/08a97803f620d823f22c50b0782922d993d1e04858a3e311a4b89088b8ec736f" target="_blank"><div class="address" id="7-adr">bc1qdrrjlpmvk4l3s2u4mpy2m9yfkh9sf80ygkgmus</div></a>
+<div class="btc"><span id="7-btc">0.02046044</span>BTC</div>
+<hr>
+<a id="8-link" href="https://blockchain.info/tx/d240e388d9779b91c3559220c588f982e4f7b86e32c8b3b40519bf765580b06a" target="_blank"><div class="address" id="8-adr">bc1qfn8vk9x5l4vhn0cqvdpk2rsz9ekscml3ezp55p</div></a>
+<div class="btc"><span id="8-btc">0.00655768</span>BTC</div>
+<hr>
+<a id="9-link" href="https://blockchain.info/tx/1b754f4437372ee03863024121e9873e623cfc98fe1f171fd946dd18212e6156" target="_blank"><div class="address" id="9-adr">bc1qldapsh7yws52nxfvp8msc6kag7jury3rxrw4dm</div></a>
+<div class="btc"><span id="9-btc">0.00183013</span>BTC</div>
+</div>
+<script src="./jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var transactions = "10";
+        var add = [];
+        var amo = [];
+        var link = [];
+
+        for (i = 0; i < transactions; i++) {
+            add[i] = "Address";
+            amo[i] = "";
+            link[i] = "";
+        }
+
+$(document).ready
+(
+    function(){
+
+        initWebSocket();
+    }
+);
+</script>
+<script language="javascript" type="text/javascript">
+function initWebSocket()
+{
+    //  init blockchain websocket (activity, blocks)
+    var blockchain = new WebSocket('wss://ws.blockchain.info/inv');
+
+    blockchain.onerror = function (error){ console.log('connection.onerror',error); };
+
+    blockchain.onopen = function ()
+    {
+        blockchain.send( JSON.stringify( {"op":"unconfirmed_sub"} ) );  //  subscribe to uncofirmed activity
+    };
+
+    blockchain.onmessage = function (message)
+    {
+        var response = JSON.parse(message.data);
+
+        var date = new Date(0);
+        date.setUTCSeconds( response.x.time );
+
+        if( response.op == "utx")
+        {
+            var amount = 0;
+
+            for(var i=0;i<response.x.out.length;i++)
+                amount += response.x.out[i].value;
+
+            //  amount is in satoshi
+            //  1 BTC = 100,000,000 Satoshi (https://en.bitcoin.it/wiki/activity)
+            response.amount = amount / 100000000;
+        }
+            var data = "";
+
+            for (i = transactions-1; i > 0; i--) {
+                add[i] = add[i-1];
+                amo[i] = amo[i-1];
+                link[i] = link[i-1];
+            }
+
+            add[0] = response.x.out[1].addr;
+            amo[0] = response.amount;
+            link[0] = 'https://blockchain.info/tx/'+ response.x.hash;
+
+            console.log(response);
+
+             for (i = 0; i < transactions; i++) {
+                $('#' + i + '-adr').html(add[i]);
+                $('#' + i + '-btc').html(amo[i]);
+                $('#' + i + '-link').attr("href", link[i])
+             }
+    };
+}
+</script>
+<div style="position: relative; text-align: right; top: -15px; font-size: x-small;"><a href="https://coingi.com/" style="color: #000000">bitcoin exchange</a></div>
+
+</body></html>

@@ -1,7 +1,79 @@
 @extends('layouts.spacedcustomlayout')
 
+<style>
+       body,
+       html {
+              margin: 0;
+              padding: 0;
+              height: 100%;
+       }
+
+       .hero-section {
+              width: 100%;
+              height: 50vh;
+              background-size: cover;
+              animation: backgroundChange 30s infinite;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+       }
+
+       .hero-content h1 {
+              color: #ffffff;
+              font-size: 2.5rem;
+       }
+
+       .hero-content p {
+              color: #dddddd;
+              font-size: 1.2rem;
+       }
+
+       .get-started-btn {
+              text-decoration: none;
+              color: #fff;
+              background-color: #007bff;
+              padding: 10px 20px;
+              border-radius: 5px;
+              transition: background-color 0.3s;
+       }
+
+       .get-started-btn:hover {
+              background-color: #0056b3;
+       }
+
+       @keyframes backgroundChange {
+              0% {
+                     background-image: url('https://images.unsplash.com/photo-1480213854112-77b3eb8fd3c0?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+              }
+
+              33% {
+                     background-image: url('https://images.unsplash.com/photo-1559526324-593bc073d938?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+              }
+
+              67% {
+                     background-image: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+              }
+
+              100% {
+                     background-image: url('https://images.unsplash.com/photo-1606189934846-a527add8a77b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+              }
+       }
+</style>
+<link href="https://trustbunds.com/assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="https://trustbunds.com/assets/css/flaticon.css" rel="stylesheet">
+    <link href="https://trustbunds.com/assets/css/owl.css" rel="stylesheet">
+    <link href="https://trustbunds.com/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="https://trustbunds.com/assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="https://trustbunds.com/assets/css/animate.css" rel="stylesheet">
+    <link href="https://trustbunds.com/assets/css/color.css" rel="stylesheet">
+    <link href="https://trustbunds.com/assets/css/rtl.css" rel="stylesheet">
+    <link href="https://trustbunds.com/assets/css/style.css" rel="stylesheet">
+    <link href="https://trustbunds.com/assets/css/responsive.css" rel="stylesheet">
+
+
 @section('body')
-<section class="header2 cid-st9UfAi09v mbr-fullscreen mbr-parallax-background" id="header2-l">
+<!-- <section class="header2 cid-st9UfAi09v mbr-fullscreen mbr-parallax-background" id="header2-l">
 
 
 
@@ -22,37 +94,15 @@
                      </div>
               </div>
        </div>
-</section>
-
-<section class="features18 cid-st9YtuRONt" id="features19-1i">
-
-
-
-
-       <div class="container">
-              <div class="row justify-content-center">
-                     <div class="card col-12 col-lg">
-                            <div class="card-wrapper">
-                                   <h6 class="card-title mbr-fonts-style mb-4 display-2">
-                                          <strong>Who We Are</strong>
-                                   </h6>
-                                   <p class="mbr-text mbr-fonts-style display-7">
-                                          Our mission is to generate world-class investment returns over the long term. We aspire to
-                                          do so in a way that makes our partners and portfolio companies proud, as we build a unique,
-                                          global investment company.</p>
-                                   <div class="mbr-section-btn">
-                                          <a class="btn btn-primary display-4" href="{{route('register')}}">Start now</a>
-                                   </div>
-                            </div>
-                     </div>
-                     <div class="col-12 col-lg-6">
-                            <div class="image-wrapper">
-                                   <img src="bingx/assets/images/purpose.jpg" alt="Mobirise">
-                            </div>
-                     </div>
-              </div>
+</section> -->
+<div class="hero-section">
+       <div class="hero-content">
+              <h1>Welcome to Our Website</h1>
+              <p>We have been known to give investors the better choice</p>
+              <a href="{{route('register')}}" class="get-started-btn">Get Started</a>
        </div>
-</section>
+</div>
+
 <section id="second1">
        <div class="container">
               <div class="row">
@@ -959,77 +1009,56 @@
               </div>
        </div>
 </section>
-<section class="features4 cid-stkybZ2FSw" id="features4-1l">
-
-
-       <div class="container">
-              <div class="mbr-section-head">
-                     <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                            <strong>Invest Today!</strong>
-                     </h4><br><br>
-
-              </div>
-              <div class="row mt-4">
-                     <div class="item features-image сol-12 col-md-6 col-lg-4">
-                            <div class="item-wrapper">
-                                   <div class="item-img">
-                                          <img src="bingx/assets/images/invest.jpg" alt="" title="">
-                                   </div>
-                                   <div class="item-content">
-                                          <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">WEALTH PLANNING </h6>
-                                          <h5 class="item-title mbr-fonts-style display-5"><strong>Put the future in focus.</strong>
-                                          </h5>
-
-                                          <p class="mbr-text mbr-fonts-style mt-3 display-7">No matter what the future brings, we can
-                                                 offer you foresight in a world in flux. We’ll work with you to keep your financial goals
-                                                 on track, and your future within sight.</p>
-                                   </div>
-                                   <div class="mbr-section-btn item-footer mt-2"><a href="{{route('register')}}" class="btn item-btn btn-black display-7" target="_blank">Get Started
-                                                 &gt;</a></div>
+<section class="about-style-two about-section about-page-1 bg-color-1">
+        <div class="auto-container">
+            <div class="row clearfix">
+                
+                <div class="col-lg-7 col-md-5 col-sm-12 content-column">
+                    <div id="content_block_three">
+                        <div class="content-box">
+                            <div class="sec-title right">
+                                <h5>About </h5>
+                                <h2>We have been known to give investors the better choice</h2>
                             </div>
-                     </div>
-                     <div class="item features-image сol-12 col-md-6 col-lg-4">
-                            <div class="item-wrapper">
-                                   <div class="item-img">
-                                          <img src="bingx/assets/images/goals.jpg" alt="" title="">
-                                   </div>
-                                   <div class="item-content">
-                                          <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">
-                                                 INVESTMENTS</h6>
-                                          <h5 class="item-title mbr-fonts-style display-5"><strong>Achieve your financial
-                                                        goals</strong></h5>
-
-                                          <p class="mbr-text mbr-fonts-style mt-3 display-7">We offer a diverse range of products,
-                                                 services and tailored solutions that suit your approach to investment and help you
-                                                 achieve your financial goals.</p>
-                                   </div>
-                                   <div class="mbr-section-btn item-footer mt-2"><a href="{{route('register')}}" class="btn item-btn btn-black display-7" target="_blank">Get Started
-                                                 &gt;</a></div>
+                            <div class="text">
+                                <p>
+                                    With over 153,000 investments under our management, $5 billion+ in assets under our
+                                    administration, over 11 industry awards,
+                                    we have made  the safe haven for
+                                    investors who want to trust their financial partner to be capable of
+                                    helping them reach their financial goals, and in due time, without the fear of
+                                    disappointments.
+                                </p>
                             </div>
-                     </div>
-                     <div class="item features-image сol-12 col-md-6 col-lg-4">
-                            <div class="item-wrapper">
-                                   <div class="item-img">
-                                          <img src="bingx/assets/images/lend.jpg" alt="" title="">
-                                   </div>
-                                   <div class="item-content">
-                                          <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">BORROWING</h6>
-                                          <h5 class="item-title mbr-fonts-style display-5"><strong>Financing that fits your personal
-                                                        needs</strong></h5>
+                            <div class="tabs-box">
 
-                                          <p class="mbr-text mbr-fonts-style mt-3 display-7">Find the right lending solution for you –
-                                                 whether you need a straightforward loan facility or have more complex requirements, with
-                                                 help from your Lending Specialist.<br></p>
-                                   </div>
-                                   <div class="mbr-section-btn item-footer mt-2"><a href="{{route('register')}}" class="btn item-btn btn-black display-7" target="_blank">Get Started
-                                                 &gt;</a></div>
+                                <div class="tabs-content">
+                                    <div class="tab active-tab" id="tab-2">
+                                        <div class="content-inner">
+                                            <p>Our investors are confident in our ability to make a promise and fulfill that
+                                                promise. We go beyond our promise
+                                                to put smiles on the faces of our clients.
+                                                We have investors from all over the world, who have been with us for over
+                                                seven years now and counting.</p>
+                                            <a href="https://trustbunds.com/login"><i class="fas fa-arrow-right" style="color: steelblue;"></i><span>Read More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                     </div>
-
-              </div>
-       </div>
-</section>
-
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 video-column">
+                    <div class="video-inner">
+                        <figure class="image-box"><img src="https://trustbunds.com/assets/images/resource/about-1.jpg" alt=""></figure>
+                        <div class="video-btn">
+                            <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image" data-caption="" style="background-image: url(assets/images/resource/btn-bg.png);"><i class="fas fa-play" style="color: steelblue;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -1216,90 +1245,158 @@
        </div>
 </section>
 
-<section class="pricing2 cid-sbjyTv8nO2" id="pricing2-8">
 
+<section class="pricing-section" style="background-image: url(assets/images/background/pricing-bg.jpg);">
+        <div class="auto-container">
+            <div class="tabs-box">
+                <div class="upper-box">
+                    <div class="title-inner clearfix">
+                        <div class="sec-title style-three left pull-left">
+                            <h5>{{ $compd ? $compd->companyname : 'company name' }}</h5>
+                            <h2>Plans</h2>
+                        </div>
+                        <div class="text pull-left">
+                            <p>
+                                Choose between individual assets and portfolios to invest and start profiting.
 
-
-       <div class="container">
-              <div class="row">
-                     <div class="col-12">
-                            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                                   <strong>Investment Strategies</strong>
-                            </h3>
-                            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">get started on
-                                   your first investment</h5>
-                            <br><br>
-
-                     </div>
-                     @if ($investmentplans)
-                     @foreach ($investmentplans as $price)
-                     <div class="col-12 col-md-6 align-center col-lg-4">
-                            <div class="plan">
-                                   <div class="plan-header">
-                                          <h6 class="plan-title mbr-fonts-style mb-3 display-5">
-                                                 <strong> {{ $price->name }}</strong>
-                                          </h6>
-                                          <div class="plan-price">
-                                                 <p class="price mbr-fonts-style m-0 display-7"><strong>${{ $price->minimum }} - {{ $price->maximum }}</strong></p>
-                                          </div>
-                                   </div>
-                                   <br>
-                                   <div class="plan-body">
-                                          <div class="plan-list mb-4">
-                                                 <ul class="list-group mbr-fonts-style list-group-flush display-7">
-                                                        <li class="list-group-item h4">{{ $price->percentage }}% Daily for {{ $price->noofrepeat }} days
-                                                        </li>
-                                                        <li class="list-group-item">Interest = {{$price->percentage * $price->noofrepeat}}%
-                                                        </li>
-                                                        <!-- <li class="list-group-item"> 26 weeks of pay
-                                </li>
-                                <li class="list-group-item">spark returns
-                                </li> -->
-                                                 </ul>
-                                          </div>
-                                          <div class="mbr-section-btn text-center">
-                                                 <a href="{{route('login')}}" class="btn btn-primary display-4">Get started</a>
-                                          </div>
-                                   </div>
-                            </div>
-                     </div>
-                     @endforeach
-                     @endif
-
-                     <!-- <div class="col-12 col-md-6 align-center col-lg-3">
-                <div class="plan">
-                    <div class="plan-header">
-                        <h6 class="plan-title mbr-fonts-style mb-3 display-5">
-                            <strong>Eighteen-months contract returns</strong>
-                        </h6>
-                        <div class="plan-price">
-                            <p class="price mbr-fonts-style m-0 display-7"><strong>$25,000 - $5,000,000</strong></p>
+                                See more plans in our <a href="{{ route('login') }}">Investment Plans</a>
+                            </p>
                         </div>
                     </div>
-                    <br>
-                    <div class="plan-body">
-                        <div class="plan-list mb-4">
-                            <ul class="list-group mbr-fonts-style list-group-flush display-7">
-                                 <li class="list-group-item h4">9.75% ROI per week
-                                </li><li class="list-group-item">week returns
-                                </li>
-                                <li class="list-group-item">78 weeks of pay
-                                </li>
-                                <li class="list-group-item">Spark returns
-                                </li>
-                                <li class="list-group-item">Quarterly dividend
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="mbr-section-btn text-center">
-                            <a href="/login" class="btn btn-primary display-4">Get started</a>
-                        </div>
+                    <div class="tab-btn-box">
+                        <ul class="tab-btns tab-buttons clearfix">
+                            <li class="tab-btn active-btn" data-tab="#tab-6">CRYPTOCURRENCY</li>
+                            <li class="tab-btn " data-tab="#tab-5">FOREX</li>
+                        </ul>
                     </div>
                 </div>
-            </div>-->
-       </div>
-</section>
-
+                <div class="tabs-content">
+                    <div class="tab active-tab" id="tab-6">
+                        <div class="row clearfix">
+                            @if ($investmentplans)
+                                @foreach ($investmentplans as $price)
+                            <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                
+                                <div class="pricing-block-one active-block">
+                                    <div class="pricing-table">
+                                        <div class="table-header" style="padding: 12px 0px 5px 0px; border: none;">
+                                            <h3>{{ $price->name }}</h3>
+                                            <div class="price-box" style="margin-bottom: 0px;">
+                                                <span>Stake your USDT, BITCOIN, BUSD, LTC...</span>
+                                                <h2>{{ $price->noofrepeat }}+</h2>
+                                                <p>Duration</p>
+                                            </div>
+                                        </div>
+                                        <div class="table-content">
+                                            <ul class="clearfix">
+                                                <li>Minimum Deposit <b class="text-primary">${{ $price->minimum }}</b></li>
+                                                <li>Maximum Deposit <b class="text-primary">${{ $price->maximum }}</b></li>
+                                                <li>Total Profit <b class="text-primary">{{ $price->percentage * $price->noofrepeat }}%</b></li>
+                                                <li>Referral Bonus <b class="text-primary">{{ $price->refpercent}}%</b></li>
+                                                <li>Withdrawal <b class="text-primary">Weekly</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="table-footer">
+                                            <a href="{{ route('register') }}" class="theme-btn style-one border-0">Stake
+                                                & Earn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            @endforeach
+                                @endif
+                            {{-- <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                <div class="pricing-block-one active-block">
+                                    <div class="pricing-table">
+                                        <div class="table-header" style="padding: 12px 0px 5px 0px; border: none;">
+                                            <h3>Basic</h3>
+                                            <div class="price-box" style="margin-bottom: 0px;">
+                                                <span>Stake your USDT, BITCOIN, BUSD, LTC...</span>
+                                                <h2>2.86%</h2>
+                                                <p>Daily Profit</p>
+                                            </div>
+                                        </div>
+                                        <div class="table-content">
+                                            <ul class="clearfix">
+                                                <li>Minimum Deposit <b class="text-primary">$5,000.00</b></li>
+                                                <li>Maximum Deposit <b class="text-primary">$10,000.00</b></li>
+                                                <li>Total Profit <b class="text-primary">20%</b></li>
+                                                <li>Referral Bonus <b class="text-primary">15%</b></li>
+                                                <li>Withdrawal <b class="text-primary">Weekly</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="table-footer">
+                                            <a href="{{ route('register') }}" class="theme-btn style-one border-0">Stake
+                                                & Earn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> --}}
+                            {{-- <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                <div class="pricing-block-one active-block">
+                                    <div class="pricing-table">
+                                        <div class="table-header" style="padding: 12px 0px 5px 0px; border: none;">
+                                            <h3>Advanced</h3>
+                                            <div class="price-box" style="margin-bottom: 0px;">
+                                                <span>Stake your USDT, BITCOIN, BUSD, LTC...</span>
+                                                <h2>3.36%</h2>
+                                                <p>Daily Profit</p>
+                                            </div>
+                                        </div>
+                                        <div class="table-content">
+                                            <ul class="clearfix">
+                                                <li>Minimum Deposit <b class="text-primary">$15,000.00</b></li>
+                                                <li>Maximum Deposit <b class="text-primary">$100,000.00</b></li>
+                                                <li>Total Profit <b class="text-primary">100.75%</b></li>
+                                                <li>Referral Bonus <b class="text-primary">30%</b></li>
+                                                <li>Withdrawal <b class="text-primary">Weekly</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="table-footer">
+                                            <a href="{{ route('register') }}" class="theme-btn style-one border-0">Stake
+                                                & Earn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> --}}
+                    {{-- <div class="tab " id="tab-5">
+                        <div class="row clearfix">
+                            <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                <div class="pricing-block-one active-block">
+                                    <div class="pricing-table">
+                                        <div class="table-header" style="padding: 12px 0px 5px 0px; border: none;">
+                                            <h3>{{ $price->name }}</h3>
+                                            <div class="price-box" style="margin-bottom: 0px;">
+                                                <span>Stake your USDT, BITCOIN, BUSD, LTC...</span>
+                                                <h2>{{ $price->noofrepeat }}+</h2>
+                                                <p>Duration</p>
+                                            </div>
+                                        </div>
+                                        <div class="table-content">
+                                            <ul class="clearfix">
+                                                <li>Minimum Deposit <b class="text-primary">${{ $price->minimum }}</b></li>
+                                                <li>Maximum Deposit <b class="text-primary">${{ $price->maximum }}</b></li>
+                                                <li>Total Profit <b class="text-primary">{{ $price->percentage * $price->noofrepeat }}%</b></li>
+                                                <li>Referral Bonus <b class="text-primary">{{ $price->refpercent}}%</b></li>
+                                                <li>Withdrawal <b class="text-primary">Weekly</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="table-footer">
+                                            <a href="{{ route('register') }}" class="theme-btn style-one border-0">Stake
+                                                & Earn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> --}}
+                </div>
+            </div>
+        </div>
+    </section>
 
 <!-- <section class="">
 
