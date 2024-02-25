@@ -10,7 +10,7 @@
 				<div class="col-md-6 col-12 order-md-1 fxt-bg-img" data-bg-image="temp/img/figure/test.png">
 					<div class="fxt-header">
 						<a href="{{route('index')}}" class="fxt-logo">
-							<h2 style="font-size: 4em;color: #24248f;font-weight: 800;color: #24248f;text-shadow: 3px 3px 5px #fff;letter-spacing: 2px!important;">bingx-finance </h2>
+							<h2 style="font-size: 4em;color: #24248f;font-weight: 800;color: #24248f;text-shadow: 3px 3px 5px #fff;letter-spacing: 2px!important;">Baguettemax </h2>
 							<!-- <img src="images/logotosend.png" style="width: 400px;"> -->
 						</a>
 						<!-- <h1>Welcome To xmee</h1> -->

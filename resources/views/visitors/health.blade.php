@@ -43,7 +43,7 @@
                             The healthcare sector is made up of many different industries, from pharmaceuticals and devices to health insurers and hospitals, and each has different dynamics. Investments in this sector are affected by many variables which include positive trends related to demographics.
                             <br><br>
 
-                            Healthcare investing requires a multifaceted approach to understand the underlying drivers, Bingx Finance makes the whole investment process easy. Investors can profit from investments in both the overall sector and/or its industries.
+                            Healthcare investing requires a multifaceted approach to understand the underlying drivers,baguettemax makes the whole investment process easy. Investors can profit from investments in both the overall sector and/or its industries.
                         </p>
                         <div class="mbr-section-btn mt-3">
                             <a class="btn btn-primary display-4" href="{{route('services')}}">

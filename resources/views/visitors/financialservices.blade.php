@@ -41,7 +41,7 @@
                             Financial markets exist to bring people together so money flows to where it is needed most. They can provide an opportunity for you to invest money in shares to build up money for the future. Financial markets also provide finance for companies so they can hire, invest and grow.
                             <br><br>
 
-                            In the financial markets, stock prices, share prices, bond prices, currency rates, interest rates and dividends go up and down, creating risk. This risk is curtailed when you invest with Bingx Finance and you can have more wealth and time for the things that matter.
+                            In the financial markets, stock prices, share prices, bond prices, currency rates, interest rates and dividends go up and down, creating risk. This risk is curtailed when you invest withbaguettemax and you can have more wealth and time for the things that matter.
                         </p>
                         <div class="mbr-section-btn mt-3">
                             <a class="btn btn-primary display-4" href="{{route('services')}}">

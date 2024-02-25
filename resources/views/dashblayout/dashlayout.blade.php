@@ -588,7 +588,7 @@ input[type="radio"][class="myRadio"] {
    
         <footer class="footer" style="position: fixed;bottom:0;width:100%;">
             <div class="container-fluid clearfix">
-                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2022 <a href="{{route('index')}}">bingx-finance</a>. All rights reserved.</span>
+                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2022 <a href="{{route('index')}}">Baguettemax</a>. All rights reserved.</span>
               <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><i class="fa fa-user"></i> {{Auth::user()->name}}             </span>
             </div>
           </footer>            

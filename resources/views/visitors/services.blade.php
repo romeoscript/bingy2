@@ -72,7 +72,7 @@
                             <strong>SALES & TRADING</strong>
                         </h6>
                         <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                            Global institutions, leading hedge funds and industry innovators turn to Bingx Finance for sales, trading and market-making services.</p>
+                            Global institutions, leading hedge funds and industry innovators turn tobaguettemax for sales, trading and market-making services.</p>
                         <div class="mbr-section-btn mt-3">
                             <a class="btn btn-primary display-4" href="{{route('register')}}">
                                 Learn more

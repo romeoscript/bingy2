@@ -83,7 +83,7 @@
               <div class="row" style="color: #fff;">
                      <div class="col-12 col-lg-7">
                             <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Welcome to
-                                          Bingx Finance </strong></h1>
+                                         baguettemax </strong></h1>
 
                             <p class="mbr-text mbr-fonts-style display-7">Our company is a leading global financial services
                                    firm with assets of $206 million and operations worldwide.</p>

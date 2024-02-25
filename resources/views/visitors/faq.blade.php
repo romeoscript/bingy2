@@ -9,7 +9,7 @@
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
 <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
 <title>
-   bingx-finance : Faqs
+  baguettemax : Faqs
   </title>
   <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
@@ -43,7 +43,7 @@ window.smartsupp||(function(d) {
 <nav class="navbar navbar-expand-lg sticky-top change" id="navbar">
 <a class="navbar-brand" href='{{route("index")}}'>
 <img alt="" height="42" src="logo.png" style="object-fit: contain;" width="220"/>
-<!-- bingx-finance -->
+<!--baguettemax -->
 </a>
 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon">
@@ -137,7 +137,7 @@ window.smartsupp||(function(d) {
 <div aria-labelledby="headingOne" class="collapse show" data-parent="#accordionExample" id="collapseOne">
 <div class="card-body" style="color: #24248f;">
 <p>
-           bingx-finance is legally registered with FINRA(CRD#: 37711), and regulated by Sec(SEC#: 8-47899)..
+          baguettemax is legally registered with FINRA(CRD#: 37711), and regulated by Sec(SEC#: 8-47899)..
           </p>
 </div>
 </div>
@@ -408,7 +408,7 @@ window.smartsupp||(function(d) {
 </p>
 <p>
           
-           Email: <br/> <a href='"mailto:support@bingx-finance"' style="text-decoration: none; color: white;">support@baguettemax.com</a>
+           Email: <br/> <a href='"mailto:support@Baguettemax"' style="text-decoration: none; color: white;">support@baguettemax.com</a>
 </p>
 <p>
           
@@ -428,7 +428,7 @@ window.smartsupp||(function(d) {
 </section>
 <div class="container-fluid" id="copyright">
 <p>
-    Copyright © 2023 All Rights Reserved bingx-finance
+    Copyright © 2023 All Rights Reservedbaguettemax
    </p>
 </div>
 <script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="code.jquery.com/jquery-3.2.1.slim.min.js')}}">

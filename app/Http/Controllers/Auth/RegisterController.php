@@ -137,8 +137,8 @@ class RegisterController extends Controller
 //send user registration email   
         $newuseremail = $data['email'];
         $name = $data['name'];
-        $mail = " Welcome to bingx-finance! <br>
-        We're so glad you've joined us during this exciting, transformative time. As an bingx-finance Member, you'll have access to all the financial tools and insights that make our approach extraordinary.
+        $mail = " Welcome tobaguettemax! <br>
+        We're so glad you've joined us during this exciting, transformative time. As anbaguettemax Member, you'll have access to all the financial tools and insights that make our approach extraordinary.
         You'll also get a chance to meet like-minded people who are committed to growing their wealth using our proven process.
         If you have any questions, please don't hesitate to contact us anytime. We're more than happy to help! ";
         $mailtitle = "Registration Successful";
